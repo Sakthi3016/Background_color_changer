@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	transition: 0.1s;
+}
+#color{
+	margin-bottom: 40px;
+	background-color: #000;
+	color:#fff;
+	padding: 8px 10px;
+}
+button{
+	padding: 15px;
+	border-radius: 10px;
+	border:none;
+	box-shadow: inset -5px -10px 18px pink,inset -5px 2px 5px yellow;
+	transition: 100ms ease-in-out pink;
+
+}
+button:hover{
+	box-shadow: inset -5px -10px 18px #FA4EB3;
+}
